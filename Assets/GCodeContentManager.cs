@@ -40,7 +40,7 @@ public class GCodeContentManager : MonoBehaviour {
 			pTC.points.Add (point); 
 
 		}
-		pTC.SetPoints (); 
+        pTC.StartAnimateSetPoint (); 
 		GCODEButton.image.color = Color.gray; 
 
 		
